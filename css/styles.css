@@ -607,6 +607,12 @@ input::placeholder {
   min-height: 584px;
   padding: 72px 24px 24px 24px;
 }
+
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .modal-close-btn {
   position: absolute;
   top: 24px;
